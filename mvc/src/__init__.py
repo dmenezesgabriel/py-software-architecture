@@ -45,7 +45,7 @@ def create_app():
 
     register_routes(app)
 
-    @app.route("/hello")
+    @app.route("/")
     def hello_world():
         return jsonify({"message": "Hello, World!"})
 

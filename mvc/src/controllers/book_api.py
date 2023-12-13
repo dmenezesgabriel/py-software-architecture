@@ -1,7 +1,9 @@
 from flask import Blueprint, jsonify, request
+from src.repositories.book_repository import BookRepository
 from src.services.book_service import BookService
 
-book_service = BookService()
+book_repository = BookRepository()
+book_service = BookService(book_repository)
 book_api = Blueprint("book", __name__, url_prefix="/api/books/")
 
 

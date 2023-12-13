@@ -1,7 +1,9 @@
 from flask import Blueprint, redirect, render_template, request, url_for
+from src.repositories.book_repository import BookRepository
 from src.services.book_service import BookService
 
-book_service = BookService()
+book_repository = BookRepository()
+book_service = BookService(book_repository)
 book_view = Blueprint('book_app', __name__, url_prefix='/books')
 
 
