@@ -1,8 +1,8 @@
-from flask import Blueprint, current_app, jsonify, request
+from flask import Blueprint, jsonify, request
 from src.services.book_service import BookService
 
 book_service = BookService()
-book_blueprint = Blueprint("book", __name__, url_prefix="/books/")
+book_blueprint = Blueprint("book", __name__, url_prefix="/api/books/")
 
 
 @book_blueprint.route("/", methods=["GET"])

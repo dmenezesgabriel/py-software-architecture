@@ -1,5 +1,3 @@
-from flask import Blueprint
-
 from .book_controller import book_blueprint
 
 
