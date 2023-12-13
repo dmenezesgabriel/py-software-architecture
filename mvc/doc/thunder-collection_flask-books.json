@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "flask-books",
+    "dateExported": "2023-12-13T13:45:22.489Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1a81cb04-6648-4e54-9b9b-e455e21f83b5",
+            "colId": "727b664e-f3b1-4f62-9603-29bd15cd1ff8",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/books",
+            "url": "http://127.0.0.1:5000/books",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-12-13T13:44:44.636Z",
+            "modified": "2023-12-13T13:44:44.636Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"title\":\"Sample Book\",\"author\":\"José Doe\",\"published_date\":\"2023-01-01\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3f20b916-c0e2-4af1-8aea-9b594f70b70f",
+            "colId": "727b664e-f3b1-4f62-9603-29bd15cd1ff8",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/books/",
+            "url": "http://127.0.0.1:5000/books/",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-12-13T13:44:57.086Z",
+            "modified": "2023-12-13T13:44:57.086Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"title\":\"Sample Book\",\"author\":\"José Doe\",\"published_date\":\"2023-01-01\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f3abcac2-cb3f-48d1-a356-f47775f2f43e",
+            "colId": "727b664e-f3b1-4f62-9603-29bd15cd1ff8",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/books/1",
+            "url": "http://127.0.0.1:5000/books/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-12-13T13:45:02.166Z",
+            "modified": "2023-12-13T13:45:02.166Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"title\":\"Sample Book\",\"author\":\"John Doe\",\"published_date\":\"2023-01-01\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "357e5d22-c1a7-4961-92c3-5845254fb6f9",
+            "colId": "727b664e-f3b1-4f62-9603-29bd15cd1ff8",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/books/1",
+            "url": "http://127.0.0.1:5000/books/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-12-13T13:45:07.010Z",
+            "modified": "2023-12-13T13:45:07.010Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"title\":\"Sample Book\",\"author\":\"John Doe\",\"published_date\":\"2023-01-01\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3deba55a-6ca4-41c3-9b8e-62d9fa58616a",
+            "colId": "727b664e-f3b1-4f62-9603-29bd15cd1ff8",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/books",
+            "url": "http://127.0.0.1:5000/books",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-12-13T13:45:11.190Z",
+            "modified": "2023-12-13T13:45:11.190Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"title\":\"Sample Book\",\"author\":\"John Doe\",\"published_date\":\"2023-01-01\"}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
