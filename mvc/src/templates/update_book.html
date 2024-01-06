@@ -25,7 +25,7 @@
       type="text"
       id="title"
       name="title"
-      value="{{ book_details.get('title', '') }}"
+      value="{{ book_details['title']}}"
       required
     ><br>
 
@@ -34,7 +34,7 @@
       type="text"
       id="author"
       name="author"
-      value="{{ book_details.get('author', '') }}"
+      value="{{ book_details['author']}}"
       required
     ><br>
 
@@ -43,7 +43,7 @@
       type="date"
       id="published_date"
       name="published_date"
-      value="{{ book_details.get('published_date', '') }}"
+      value="{{ book_details['published_date']}}"
       required
     ><br>
 

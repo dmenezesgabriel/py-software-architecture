@@ -28,16 +28,14 @@
     <tbody>
       {% for book in books %}
       <tr>
-        <td>{{ book.get('title', '') }}</td>
-        <td>{{ book.get('author', '') }}</td>
-        <td>{{ book.get('published_date', '') }}</td>
+        <td>{{ book["title"]}}</td>
+        <td>{{ book["author"]}}</td>
+        <td>{{ book["published_date"] }}</td>
         <td>
           <button
-            onclick="location.href='/books/update/{{ book.get('id', '') }}'"
-          >Update</button>
+            onclick="location.href='/books/update/{{ book['id'] }}'">Update</button>
           <button
-            onclick="location.href='/books/delete/{{ book.get('id', '') }}'"
-          >Delete</button>
+            onclick="location.href='/books/delete/{{ book['id'] }}'">Delete</button>
         </td>
       </tr>
       {% endfor %}

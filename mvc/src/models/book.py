@@ -1,7 +1,15 @@
+from dataclasses import dataclass
+
 from src import db
 
 
+@dataclass
 class Book(db.Model):
+    id: int
+    title: str
+    author: str
+    published_date: str
+
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(255), nullable=False)
     author = db.Column(db.String(255), nullable=False)

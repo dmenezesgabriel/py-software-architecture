@@ -1,5 +1,5 @@
-from src.adapters.infrastructure.db.book_model import Book
-from src.adapters.infrastructure.db.orm import db
+from src import db
+from src.models.book import Book
 
 
 class BookRepository:
